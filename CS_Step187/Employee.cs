@@ -10,7 +10,7 @@ namespace CS_Step187
     {
         public int Id { get; set; }
 
-        public static bool operator ==(Employee x, Employee y)
+        public static bool operator== (Employee x, Employee y)
         {
             if (x.Id == y.Id)
                 return true;
@@ -18,7 +18,7 @@ namespace CS_Step187
                 return false;
         }
 
-        public static bool operator !=(Employee x, Employee y)
+        public static bool operator!= (Employee x, Employee y)
         {
             if (x.Id != y.Id)
                 return true;
